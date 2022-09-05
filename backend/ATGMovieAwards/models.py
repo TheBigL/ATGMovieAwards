@@ -27,3 +27,5 @@ class Database(models.Model):
     Website = models.CharField()
     Response = models.CharField()
 #    JSONResponse = jsonfield.JSONField()
+    def _str_(self):
+        return self.Movie_Title
