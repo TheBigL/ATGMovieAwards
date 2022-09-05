@@ -15,13 +15,14 @@ def login(request):
     user = authenticate(request, username=username, password=password)
     if user is not None:
         login(request, user)
-        # Redirect to a success page.
+        
         
     else:
-        # Return an 'invalid login' error message.
+        HttpResponse("No User like that exists")
         
 
 def logout(request):
+
     logout(request)
 
 

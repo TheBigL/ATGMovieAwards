@@ -21,6 +21,6 @@ from ATGMovieAwards import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
-    path('logout/', views.logout)
-    path('login/', views.login)
+    path('logout/', views.logout),
+    path('login/', views.login),
 ]
