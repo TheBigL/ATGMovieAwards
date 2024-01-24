@@ -6,7 +6,7 @@ from django.db import models
 
 class Database(models.Model):
     Movie_Title = models.CharField(max_length=120)
-    Year = models.models.models.IntegerField()
+    Year = models.IntegerField()
     Genre = models.CharField(max_length=100)
     DateReleased = models.CharField(max_length=20)
     imdbRating = models.CharField()
