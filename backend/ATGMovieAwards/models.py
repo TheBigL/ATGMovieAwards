@@ -26,6 +26,6 @@ class Database(models.Model):
     Production = models.CharField()
     Website = models.CharField()
     Response = models.CharField()
-#    JSONResponse = jsonfield.JSONField()
+    JSONResponse = models.JSONField()
     def _str_(self):
         return self.Movie_Title
