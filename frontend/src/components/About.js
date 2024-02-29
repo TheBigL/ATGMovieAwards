@@ -5,6 +5,7 @@ const About = () => {
         <div>
             <h1>About This Page</h1>
             This page is offers us a means to evaluate which movies are best.
+            Pick the movies you like best.
         </div>
     )
 }
